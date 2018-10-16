@@ -1,51 +1,45 @@
-<?php include("includes/a_config.php");?>
+<?php include("includes/a_config.php"); ?>
 
-<!doctype html>
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<title>anatine - a free css template</title>
-<link rel="stylesheet" href="styles.css" type="text/css" />
-<!--[if lt IE 9]>
-<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
-<!--
-anatine, a free CSS web template by ZyPOP (zypopwebtemplates.com/)
-
-Download: http://zypopwebtemplates.com/
-
-License: Creative Commons Attribution
-//-->
-<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
-</head>
+<?php include("includes/header.php"); ?>
 
 <body>
 
-		<section id="body" class="width">
-			<aside id="sidebar" class="column-left">
+<section id="body" class="width">
+  <aside id="sidebar" class="column-left">
 
-			<?php include("includes/header.php");?>
-			<?php include("includes/nav.php");?>
-			
-			</aside>
+      <?php include("includes/nav.php"); ?>
 
-			<section id="content" class="column-right">
-                		
-	    <article>
-			
-				<h2>Linux Power</h2>
-				<div class="article-info">Posted on <time datetime="2013-05-14">14 May</time> by <a href="#" rel="author">Joe Bloggs</a></div>
+  </aside>
 
-			</article>
+  <section id="content" class="column-right">
+    <div class="column">
+
+      <div class="title">
+        <h3><?php echo $PAGE_TITLE ?></h3>
+      </div>
+
+      <p>&nbsp;</p>
 
 
-			<?php include("includes/footer.php");?>
-		</section>
+      <h3>Soirée présentation et installation Linux</h3>
 
-		<div class="clear"></div>
 
-	</section>
-	
+
+      <a href="http://10.10.10.10/">
+      <div class="access col-12 p-card--highlighted">
+          <h3>http://10.10.10.10</h3>
+      </div>
+      </a>
+
+    </div>
+
+      <?php include("includes/footer.php"); ?>
+  </section>
+
+  <div class="clear"></div>
+
+</section>
+
 
 </body>
 </html>

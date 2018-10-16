@@ -4,7 +4,7 @@
 body {
 	margin:0px auto;
 	padding:0;
-	background: #222;
+	background:  #fff;
 	font-family: "Source Sans Pro","sans-serif";
 	font-size: 1.0em;
 	color:#666;
@@ -48,7 +48,7 @@ p {
 	margin-bottom:20px;
 }
 a {
-	color:#6FAB4F;
+	color:#148ac5;
 }
 a:hover {
 	color:#000;
@@ -57,9 +57,9 @@ a:focus {
 	outline:none;
 }
 a.button { 
-    background-color: #80B763;
+    background-color: #0b4968;
     border-radius: 5px;
-    color: #FFFFFF;
+    color: #fff;
     display: inline-block;
     font-weight: bold;
     padding: 8px 22px;
@@ -74,7 +74,7 @@ a.button-reversed {
 }
 
 a.button:hover {
-	background-color: #669D48;
+	background-color: #0b4968;
 }
 
 a.button-reversed:hover {
@@ -107,7 +107,7 @@ fieldset form input, fieldset form select, fieldset form textarea {
 }
 fieldset form input.formbutton {
 border:none;
-    background-color: #80B763;
+    background-color: #0b4968;
     border-radius: 5px;
     color: #FFFFFF;
     display: inline-block;
@@ -131,7 +131,7 @@ h2 {
 	margin:0;
 }
 h3 {
-	color:#80B763;
+	color:#0b4968;
 	font-size:1.6em;
 	padding-bottom:10px;
 }
@@ -194,17 +194,65 @@ header h2 {
 	letter-spacing:0;
 }
 
+.logo{
+	text-align: center;
+	height: 180px;
+	width: 200px;
+
+}
+
+.logo img{
+	margin-left: 20px;
+	width: 170px;
+	height: auto;
+	object-fit: cover;
+}
+
 
 /** body **/
 section#body {
 	padding: 0;
-	background: #80B763;
+	width: 1500px;
+	margin:auto;
+	background:  #0b4968;
+}
+
+/** page titles **/
+.title {
+	margin-bottom: 60px;
+}
+
+.title h3{
+	font-size: 4em;
+}
+
+/** access adress **/
+.access{
+	text-align: center;
+	margin-top: 200px;
+}
+
+.access:hover{
+	background-color: black;
+	opacity:0.2;
+}
+
+.access h3{
+	margin: 60px;
+	font-size: 3em;
 }
 
 
 /** content+sidebar styles **/
+.column{
+	width: 700px;
+	margin-left: 125px;
+}
+
 section#content {
 	margin-left: 250px;
+	margin-right: auto;
+	width:1000px;
 	padding: 20px;
 	background-color: #fff;
 }
@@ -212,11 +260,12 @@ section#content {
 	float:left;
 }
 .column-right {
-	float:right;
+	float:left;
 }
 aside#sidebar {
 	width:250px;
 	position: fixed;
+	height: 1000px;
 }
 nav#mainnav ul {
 	padding: 0;
@@ -226,20 +275,20 @@ nav#mainnav ul {
 
 nav#mainnav li {
 	padding:0;
-	border-bottom: 1px solid #99C581;
-	border-top: 1px solid #6FAB4F;
+	border-bottom: 1px solid #fff;
+	border-top: 1px solid #fff;
 }
 nav#mainnav li.selected-item  {
 	border-bottom:none;
 }
 nav#mainnav li.selected-item a,
 nav#mainnav li.selected-item a:hover {
-	color:#80B763;
+	color:#0b4968;
 	font-weight:bold;
 	background: #fff;
 }
 nav#mainnav li a:hover {
-	background:#669D48;
+	background:#148ac5;
 	color: #fff;
 	text-decoration:none;
 }
@@ -317,7 +366,143 @@ footer p a:hover { color:#333; border-bottom-color: #333; }
 	display: block;
 }
 
+/** --- BOX ADDINGS -- **/
 
+.p-card, .p-card--highlighted, .p-card--navigation .p-card--highlighted, .p-card--light .p-card--highlighted, .p-card--cloud-and-server, .p-card--internet-of-things, .p-card--desktop, .p-card--canonical-announcements, .p-contextual-menu__dropdown, .p-modal__dialog, .p-notification, .p-notification--positive, .p-notification--caution, .p-notification--negative, .p-notification--information, .p-notification--floating .p-notification, .p-card--navigation .p-card, .p-card--navigation .p-card--cloud-and-server, .p-card--navigation .p-card--internet-of-things, .p-card--navigation .p-card--desktop, .p-card--navigation .p-card--canonical-announcements, .p-card--light .p-card, .p-card--light .p-card--cloud-and-server, .p-card--light .p-card--internet-of-things, .p-card--light .p-card--desktop, .p-card--light .p-card--canonical-announcements {
+	margin-bottom: 1.5rem;
+	overflow: auto;
+	padding: 1rem;
+}
+.p-card, .p-card--highlighted, .p-card--navigation .p-card--highlighted, .p-card--light .p-card--highlighted, .p-card--cloud-and-server, .p-card--internet-of-things, .p-card--desktop, .p-card--canonical-announcements, .p-contextual-menu__dropdown, .p-modal__dialog, .p-notification, .p-notification--positive, .p-notification--caution, .p-notification--negative, .p-notification--information, .p-notification--floating .p-notification, .p-card--navigation .p-card, .p-card--navigation .p-card--cloud-and-server, .p-card--navigation .p-card--internet-of-things, .p-card--navigation .p-card--desktop, .p-card--navigation .p-card--canonical-announcements, .p-card--light .p-card, .p-card--light .p-card--cloud-and-server, .p-card--light .p-card--internet-of-things, .p-card--light .p-card--desktop, .p-card--light .p-card--canonical-announcements {
+	background-color: #fff;
+	color: #111;
+}
+.p-card--highlighted, .p-card--navigation .p-card--highlighted, .p-card--light .p-card--highlighted, .p-card--cloud-and-server, .p-card--internet-of-things, .p-card--desktop, .p-card--canonical-announcements, .p-card--muted, .p-contextual-menu__dropdown, .p-modal__dialog, .p-notification, .p-notification--positive, .p-notification--caution, .p-notification--negative, .p-notification--information, .p-notification--floating .p-notification, .p-card--navigation .p-card--cloud-and-server, .p-card--navigation .p-card--internet-of-things, .p-card--navigation .p-card--desktop, .p-card--navigation .p-card--canonical-announcements, .p-card--navigation .p-card--muted, .p-card--light .p-card--cloud-and-server, .p-card--light .p-card--internet-of-things, .p-card--light .p-card--desktop, .p-card--light .p-card--canonical-announcements, .p-card--light .p-card--muted {
+	box-shadow: 0 1px 5px 1px rgba(17, 17, 17, 0.2);
+}
+.p-card, .p-card--highlighted, .p-card--navigation .p-card--highlighted, .p-card--light .p-card--highlighted, .p-card--cloud-and-server, .p-card--internet-of-things, .p-card--desktop, .p-card--canonical-announcements, .p-card--muted, .p-contextual-menu__dropdown, .p-modal__dialog, .p-notification, .p-notification--positive, .p-notification--caution, .p-notification--negative, .p-notification--information, .p-notification--floating .p-notification, .p-card--navigation .p-card, .p-card--navigation .p-card--cloud-and-server, .p-card--navigation .p-card--internet-of-things, .p-card--navigation .p-card--desktop, .p-card--navigation .p-card--canonical-announcements, .p-card--navigation .p-card--muted, .p-card--light, .p-card--light .p-card, .p-card--light .p-card--cloud-and-server, .p-card--light .p-card--internet-of-things, .p-card--light .p-card--desktop, .p-card--light .p-card--canonical-announcements, .p-card--light .p-card--muted {
+	border-radius: 0.125rem;
+}
+*, ::before, ::after {
+	box-sizing: inherit;
+}
+.p-card, .p-card--highlighted, .p-card--navigation .p-card--highlighted, .p-card--light .p-card--highlighted, .p-card--cloud-and-server, .p-card--internet-of-things, .p-card--desktop, .p-card--canonical-announcements, .p-contextual-menu__dropdown, .p-modal__dialog, .p-notification, .p-notification--positive, .p-notification--caution, .p-notification--negative, .p-notification--information, .p-notification--floating .p-notification, .p-card--navigation .p-card, .p-card--navigation .p-card--cloud-and-server, .p-card--navigation .p-card--internet-of-things, .p-card--navigation .p-card--desktop, .p-card--navigation .p-card--canonical-announcements, .p-card--light .p-card, .p-card--light .p-card--cloud-and-server, .p-card--light .p-card--internet-of-things, .p-card--light .p-card--desktop, .p-card--light .p-card--canonical-announcements {
+	color: #111;
+}
+.p-divider__block {
+	padding-bottom: 1.5rem;
+}
+*, ::before, ::after {
+	box-sizing: inherit;
+}
+.p-card__content {
+	margin-top: -1rem;
+}
+.p-card__content {
+	margin-top: -1rem;
+}
+p, h5, .p-heading--five, h6, .p-heading--six, .measure--p {
+	max-width: 38em;
+}
+dd, p, h5, .p-heading--five, h6, .p-heading--six, .p-footer__link, .p-navigation--secondary__logo {
+	margin-bottom: 1.1rem;
+}
+label, dt, cite, dd, p, h5, .p-heading--five, h6, .p-heading--six, .p-footer__link, .p-navigation--secondary__logo, .p-navigation--sidebar .p-navigation__tagline, .p-breadcrumbs__item, .p-notification__response, .p-notification--floating .p-notification__response {
+	line-height: 1.5rem;
+	margin-bottom: 0.1rem;
+	margin-top: 0;
+	padding-top: 0.4rem;
+}
+*, ::before, ::after {
+	box-sizing: inherit;
+}
+.p-list {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+}
+ol, ul {
+	margin-bottom: 1.5rem;
+	margin-left: 1rem;
+	margin-top: 0;
+	padding-left: 1rem;
+}
+*, ::before, ::after {
+	box-sizing: inherit;
+}
+.p-list .p-list__item {
+	padding-bottom: 0.25rem;
+	padding-top: 0.25rem;
+}
+.is-ticked {
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 14 14'%3E%3Ccircle fill='%23e95420' cx='7' cy='7' r='7'/%3E%3Cpath fill='%23fff' d='M6.1 10.813L2.41 8.105l1.184-1.613L5.9 8.187l4.393-4.394 1.414 1.414z' /%3E%3C/svg%3E");
+	background-position-y: 0.5625rem;
+	background-repeat: no-repeat;
+	padding-left: 2rem;
+}
+li, dl {
+	margin: 0;
+	padding: 0;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+*, ::before, ::after {
+	box-sizing: inherit;
+}
+.p-list {
+	list-style: none;
+}
+.p-card, .p-card--highlighted, .p-card--navigation .p-card--highlighted, .p-card--light .p-card--highlighted, .p-card--cloud-and-server, .p-card--internet-of-things, .p-card--desktop, .p-card--canonical-announcements, .p-contextual-menu__dropdown, .p-modal__dialog, .p-notification, .p-notification--positive, .p-notification--caution, .p-notification--negative, .p-notification--information, .p-notification--floating .p-notification, .p-card--navigation .p-card, .p-card--navigation .p-card--cloud-and-server, .p-card--navigation .p-card--internet-of-things, .p-card--navigation .p-card--desktop, .p-card--navigation .p-card--canonical-announcements, .p-card--light .p-card, .p-card--light .p-card--cloud-and-server, .p-card--light .p-card--internet-of-things, .p-card--light .p-card--desktop, .p-card--light .p-card--canonical-announcements {
+	color: #111;
+}
+[class*="p-button"].is-wide {
+	width: 100%;
+}
+p button, p [type="submit"], p .p-button, p .p-button--neutral, p .p-button--brand, p .p-button--positive, p .p-button--negative, p .p-button--base {
+	margin-bottom: 0.6rem;
+	margin-top: -0.4rem;
+}
+.p-button--positive {
+	background-color: #0b4968;
+	border-color: #0b4968;
+	color: #fff;
+}
+button, [type="submit"], .p-button, .p-button--neutral, .p-button--brand, .p-button--positive, .p-button--negative, .p-button--base {
+	width: auto;
+}
+button, [type="submit"], .p-button, .p-button--neutral, .p-button--brand, .p-button--positive, .p-button--negative, .p-button--base {
+	transition-duration: 0.165s;
+	transition-property: background-color, border-color;
+	transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+	border-radius: 0.125rem;
+	border-style: solid;
+	border-width: 1px;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 1rem;
+	font-weight: 300;
+	line-height: 1.5rem;
+	margin-bottom: 1.7rem;
+	padding: 0.3375rem 1rem;
+	text-align: center;
+	text-decoration: none;
+}
+a {
+	color: #007aa6;
+	text-decoration: none;
+}
+a {
+	background-color: transparent;
+}
+*, ::before, ::after {
+	box-sizing: inherit;
+}
+
+
+.element{
+	margin-bottom: 60px;
+}
 
 
 

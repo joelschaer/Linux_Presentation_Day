@@ -1,15 +1,19 @@
 <?php
 	switch ($_SERVER["SCRIPT_NAME"]) {
-		case "/about.php":
-			$CURRENT_PAGE = "About"; 
-			$PAGE_TITLE = "About Us";
-			break;
 		case "/distrib.php":
 			$CURRENT_PAGE = "Distrib"; 
 			$PAGE_TITLE = "Distributions Linux";
+			break;	
+      case "/app.php":
+			$CURRENT_PAGE = "App"; 
+			$PAGE_TITLE = "Applications";
+			break;
+		case "/ecole.php":
+			$CURRENT_PAGE = "Ecole"; 
+			$PAGE_TITLE = "Heig-VD";
 			break;
 		default:
 			$CURRENT_PAGE = "Index";
-			$PAGE_TITLE = "Bienvenue à la Linux Presentation Day!";
+			$PAGE_TITLE = "Linux Presentation Day";
 	}
 ?>

@@ -7,18 +7,13 @@ services :
             - 80:80
         links:
             - php
-        volumes_from:
-            - app
+        volumes:
+            - ./site/html:/var/www/html
      
     php:
         image: php:7.0-fpm
         expose:
             - 9000
-        volumes_from:
-            - app
-            
-    app:
-        image: php:7.0-fpm
         volumes:
             - ./site/html:/var/www/html
-        command: "true"
+            
