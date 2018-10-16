@@ -22,53 +22,34 @@
       </div>
 
 
-      <h2>Examples</h2>
-
-      <h1>Heading H1</h1>
-      <h2>Heading H2</h2>
-      <h3>Heading H3</h3>
-      <h4>Heading H4</h4>
-      <h5>Heading H5</h5>
       <p>&nbsp;</p>
 
-
-      <h3>Lists</h3>
-      <ul>
-        <li>List item</li>
-        <li>List item</li>
-        <li>List item</li>
-      </ul>
-
-      <ol>
-
-        <li>List item</li>
-        <li>List item</li>
-        <li>List item</li>
-      </ol>
-      <p>&nbsp;</p>
-
-
-      <blockquote><p>Mauris sit amet tortor in urna tincidunt aliquam. Pellentesque habitant morbi tristique senectus et
-          netus et malesuada fames ac turpis egestas</p></blockquote>
-      <p>&nbsp;</p>
-
-
-      <h3>Form</h3>
-      <fieldset>
-
-        <legend>Form legend</legend>
-        <form action="#" method="get">
-          <p><label for="name">Name:</label>
-            <input type="text" name="name" id="name" value=""/><br/></p>
-          <p><label for="email">Email:</label>
-            <input type="text" name="email" id="email" value=""/><br/></p>
-          <p><label for="message">Message:</label>
-            <textarea cols="60" rows="11" name="message" id="message"></textarea><br/></p>
-          <p><input type="submit" name="send" class="formbutton" value="Send"/></p>
-        </form>
-
-      </fieldset>
+      <article>
+        <h3>Handicap, besoin d'adaptation</h3>
+        <p>L'heig-vd met a disposition plusieurs services afin d'assuer l'intégration des étudiants et de leur fournir les aides dont ils ont besoins. Ces service sont destinés à toutes les personnes qui nécessitent d'une
+          quelconque mesure d'adaptation.</p>
+        <p>Tous les renseignement nécessaires se retrouvent ici :</p>
+        <a href="https://heig-vd.ch/a-propos/politique/egalite-diversite">Egalité des chances</a>
+        <p>&nbsp;</p>
       </article>
+
+
+      <article>
+        <h3>Team4U</h3>
+        <p>Un groupe de 3 entités qui peuvent apporter de l'écoute et de l'aide aux étudiant qui seraient en difficulté. Il est composé d'une Aumonerie, d'un jet service et d'une consultation psychologique.</p>
+        <p>Toutes les informations nécessaires se trouvent ici :</p>
+        <a href="https://heig-vd.ch/campus/services/services-aux-etudiants">Team4U</a>
+        <p>&nbsp;</p>
+      </article>
+
+     <article>
+       <h3>Le sport à l'Heig</h3>
+       <p>L'école a mis sur pied un programme regroupant de nombreuses activités sportive.</p>
+       <p>Vous pouvez retrouvez toues ces activités avec leurs horrairs sur le site : </p>
+       <a href="http://sport.heig-vd.ch">Sport à l'Heig</a>
+       <p>&nbsp;</p>
+     </article>
+
 
     </div>
 
