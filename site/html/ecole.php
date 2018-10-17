@@ -26,9 +26,9 @@
 
       <article>
         <h3>Handicap, besoin d'adaptation</h3>
-        <p>L'heig-vd met a disposition plusieurs services afin d'assuer l'intégration des étudiants et de leur fournir les aides dont ils ont besoins. Ces service sont destinés à toutes les personnes qui nécessitent d'une
+        <p>L'heig-vd met a disposition plusieurs services afin d'assurer l'intégration des étudiants et de leur fournir les aides dont ils ont besoin. Ces services sont destinés à toutes les personnes qui nécessitent une
           quelconque mesure d'adaptation.</p>
-        <p>Tous les renseignement nécessaires se retrouvent ici :</p>
+        <p>Tous les renseignements nécessaires se retrouvent ici :</p>
         <a href="https://heig-vd.ch/a-propos/politique/egalite-diversite">Egalité des chances</a>
         <p>&nbsp;</p>
       </article>
@@ -44,10 +44,9 @@
 
      <article>
        <h3>Le sport à l'Heig</h3>
-       <p>L'école a mis sur pied un programme regroupant de nombreuses activités sportive.</p>
-       <p>Vous pouvez retrouvez toues ces activités avec leurs horrairs sur le site : </p>
+       <p>L'école a mis sur pied un programme regroupant de nombreuses activités sportives (gratuites ou avec des tarifs préférentiels.</p>
+       <p>Vous pouvez retrouvez toutes ces activités avec leurs horaires sur le site : </p>
        <a href="http://sport.heig-vd.ch">Sport à l'Heig</a>
-       <p>&nbsp;</p>
      </article>
 
 

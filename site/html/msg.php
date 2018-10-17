@@ -11,7 +11,7 @@ if(!$pdo){
 if( isset($_POST['formNom']) )
 {
     $nom = $_POST['formNom'];
-    $comment = $_POST['formCommentaire'];
+    $comment = $_POST['formComment'];
 
     $qry = $pdo->prepare('INSERT INTO t_message(nom, message) VALUES (?,?)');
     $qry->execute(array($nom, $comment));
@@ -19,7 +19,8 @@ if( isset($_POST['formNom']) )
 }
 
 $sql= "SELECT * FROM t_message";
-$commentaires= $pdo->query($sql);
+$res= $pdo->query($sql);
+$commentaires = $res->fetchAll(\PDO::FETCH_ASSOC);
 ?>
 
 <?php include("includes/header.php"); ?>
@@ -45,18 +46,19 @@ $commentaires= $pdo->query($sql);
 
       <div id="commentForm">
 
-        <h3>Laissez nous un commentaire</h3>
+        <h3>Laissez-nous un commentaire</h3>
 
         <form action="msg.php" method="post">
           <input name="formNom" placeholder="Nom" type="text" required />
           <textarea name="formComment" placeholder="Commentaire" required maxlength="1500"></textarea>
-          <input class="formBtn" type="submit" />
+          <button class="formBtn" type="submit" >Envoyer</button>
         </form>
       </div>
 
 
       <?php
-        foreach($commentaires as $row){
+        $commentaires_reverse = array_reverse($commentaires);
+        foreach($commentaires_reverse as $row){
           print("<article>");
           print("<h3>".$row['nom']."</h3>");
           print("<p>".$row['message']."</p>");

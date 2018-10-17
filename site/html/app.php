@@ -27,7 +27,7 @@
         <h2>JetBrain</h2>
         <div class="u-equal-height p-divider">
           <div class="p-divider__block">
-            <p>Un editeur qui met à disposition une collection d'outils très puissants pour le developpement dans n'importe quel language.</p>
+            <p>Un éditeur qui met à disposition une collection d'outils très puissants pour le développement dans n'importe quel language.</p>
             <ul class="p-list">
               <li class="p-list__item is-ticked">Clion (c, c++)</li>
               <li class="p-list__item is-ticked">IntelliJ (Java)</li>
@@ -103,7 +103,7 @@
         <h2>Git</h2>
         <div class="u-equal-height p-divider">
           <div class="p-divider__block">
-            <p>Outil de travail collaboratif. Très utiliser dans le monde du développement. Permet de faire du versionning et donc de revenir en arrière dans le temps.</p>
+            <p>Outil de travail collaboratif. Très utilisé dans le monde du développement. Permet de faire du versionning et donc de revenir en arrière dans le temps.</p>
             <ul class="p-list">
               <li class="p-list__item is-ticked">Collaborer durant un labo.</li>
               <li class="p-list__item is-ticked">Partager du code</li>
@@ -122,7 +122,7 @@
         <h2>RedShift</h2>
         <div class="u-equal-height p-divider">
           <div class="p-divider__block">
-            <p>Permet d'atténuer la lumière bleu de l'écran. Certaines distribution ont déjà cet outil intégré.</p>
+            <p>Permet d'atténuer la lumière bleue de l'écran. Certaines distribution ont déjà cet outil intégré.</p>
             <ul class="p-list">
               <li class="p-list__item is-ticked">Se fatiguer moins les yeux</li>
               <li class="p-list__item is-ticked">Travail plus agréable</li>
@@ -140,7 +140,7 @@
         <h2>tldr</h2>
         <div class="u-equal-height p-divider">
           <div class="p-divider__block">
-            <p>C'est une sorte de man page du strict minimum. Les man pages sont un manuel de toutes les options d'une commande. tldr ne donne que la structure des commandes sous leur forme la plus courrante. C'est donc un rappel rapide de l'utilisation d'une commande</p>
+            <p>C'est une sorte de man page du strict minimum. Les man pages sont un manuel de toutes les options d'une commande. tldr ne donne que la structure des commandes sous leur forme la plus courante. C'est donc un rappel rapide de l'utilisation d'une commande</p>
             <ul class="p-list">
               <li class="p-list__item is-ticked">Rappel rapide</li>
               <li class="p-list__item is-ticked">Strict minimum</li>
