@@ -155,6 +155,16 @@
         </div>
       </div>
 
+			<div class="element p-card--highlighted">
+				<h2>Command line intéressantes</h2>
+				<div class="u-equal-height p-divider">
+					<div class="p-divider__block">
+						<p><b>locate</b> : Recherche évoluée</p>
+						<p><b>tree</b> : Affichage graphique de l'arborescence des répertoires</p>
+						<p><b>htop</b> : Moniteur de ressources doté d'un environnement en mode texte convivial</p>
+					</div>
+				</div>
+			</div>
 
       <?php include("includes/footer.php"); ?>
   </section>
