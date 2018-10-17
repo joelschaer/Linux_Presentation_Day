@@ -12,6 +12,10 @@
 			$CURRENT_PAGE = "Ecole"; 
 			$PAGE_TITLE = "Heig-VD";
 			break;
+        case "/msg.php":
+            $CURRENT_PAGE = "Commentaires";
+            $PAGE_TITLE = "Laissez nous un Commentaire !!";
+            break;
 		default:
 			$CURRENT_PAGE = "Index";
 			$PAGE_TITLE = "Linux Presentation Day";

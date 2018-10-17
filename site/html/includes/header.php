@@ -9,6 +9,9 @@
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
   <!--
   anatine, a free CSS web template by ZyPOP (zypopwebtemplates.com/)
 
@@ -17,4 +20,5 @@
   License: Creative Commons Attribution
   //-->
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0"/>
+
 </head>

@@ -9,5 +9,6 @@
     <li class="<?php if ($CURRENT_PAGE == "Distrib") {?>selected-item<?php }?>"><a href="distrib.php">Distributions</a></li>
     <li class="<?php if ($CURRENT_PAGE == "App") {?>selected-item<?php }?>"><a href="app.php">Applications</a></li>
     <li class="<?php if ($CURRENT_PAGE == "Ecole") {?>selected-item<?php }?>"><a href="ecole.php">Heig-VD</a></li>
+    <li class="<?php if ($CURRENT_PAGE == "Commentaires") {?>selected-item<?php }?>"><a href="msg.php">Commentaires</a></li>
   </ul>
 </nav>
