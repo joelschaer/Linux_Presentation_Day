@@ -32,6 +32,7 @@
         Nous restons également à disposition une fois la soirée terminée pour répondre à vos questions ou vous donner un coup de pouce si vous rencontrez un problème durant l'année avec votre machine.
         N'hésitez donc pas à venir sous voir au Chill Out ou de nous envoyer un petit mail.
       </p>
+      <h3>https://github.com/joelschar/Linux_Presentation_Day</h3>
 
       <a href="http://10.192.91.252/">
       <div class="access col-12 p-card--highlighted">
